@@ -1,0 +1,78 @@
+1. Conflict Over Service Boundaries
+
+Situation: Engineer A wants to create a separate microservice for payment processing, while Engineer B believes it should be integrated into the order management service.
+Task: Determine the appropriate boundaries for the services.
+Action: Facilitate a discussion on the advantages and disadvantages of each approach.
+Result: The team agreed to create a separate payment service, allowing for better scalability and focused development.
+
+
+2. Conflict Regarding Database Architecture
+
+Situation: Engineer A advocates for a single, centralized database for all microservices, while Engineer B prefers a database-per-service approach to ensure data autonomy.
+Task: Help the team decide on the database architecture.
+Action: Organize a workshop to discuss the trade-offs of each approach.
+Result: The team decided on a hybrid approach, using a centralized database for shared data and separate databases for microservices with unique data needs.
+
+
+3. Conflict Over API Versioning Strategies
+
+Situation: Engineer A favors URI versioning for APIs, while Engineer B prefers header versioning for more flexibility.
+Task: Mediate the discussion on API versioning.
+Action: Host a meeting to explore both methods and their implications on client integration.
+Result: The team agreed to implement header versioning for internal APIs and URI versioning for public-facing APIs, balancing flexibility and clarity.
+
+
+4. Conflict Over Authentication Mechanisms
+
+Situation: Engineer A wants to implement OAuth 2.0 for user authentication, while Engineer B suggests using JWT tokens for simplicity and performance.
+Task: Evaluate the best authentication strategy for the application.
+Action: Conduct a session to discuss the security implications and performance of both methods.
+Result: The team decided to use OAuth 2.0 for user authentication, with JWT tokens for internal service-to-service communication, enhancing security while maintaining performance.
+
+
+5. Conflict Regarding Logging and Monitoring Tools
+
+Situation: Engineer A prefers using ELK Stack for logging and monitoring, while Engineer B advocates for Prometheus and Grafana for real-time metrics.
+Task: Find a suitable logging and monitoring solution for the application.
+Action: Facilitate a discussion on the features and benefits of each tool.
+Result: The team decided to implement both solutions, using ELK for log management and Prometheus/Grafana for real-time monitoring, ensuring comprehensive observability.
+
+
+6. Conflict Over Deployment Strategies
+
+Situation: Engineer A proposes using Kubernetes for orchestration, while Engineer B prefers Docker Swarm for its simplicity.
+Task: Mediate the discussion on the deployment strategy.
+Action: Organize a meeting to evaluate the scalability and complexity of both options.
+Result: The team opted for Kubernetes due to its robust features and scalability, with a plan to simplify the initial setup.
+
+
+7. Conflict Over Caching Strategies
+
+Situation: Engineer A suggests implementing Redis for caching frequently accessed data, while Engineer B believes in using database-level caching.
+Task: Help the team choose the best caching approach.
+Action: Host a brainstorming session to compare both strategies.
+Result: The team agreed to use Redis for caching read-heavy data and database-level caching for specific queries, optimizing performance.
+
+
+8. Conflict Over Development Methodologies
+
+Situation: Engineer A advocates for Agile methodologies, while Engineer B prefers a more traditional Waterfall approach for planning.
+Task: Determine the best development methodology for the team.
+Action: Facilitate a discussion on the pros and cons of each methodology.
+Result: The team decided to adopt Agile practices with regular sprint reviews while incorporating some Waterfall elements for long-term planning.
+
+
+9. Conflict Over Feature Prioritization
+
+Situation: Engineer A wants to prioritize the development of the shopping cart feature, while Engineer B believes that the user authentication feature should come first.
+Task: Help the team prioritize features based on business needs.
+Action: Organize a meeting with stakeholders to assess the impact of each feature.
+Result: The team agreed to prioritize user authentication first, as it was essential for the entire application, followed by the shopping cart feature.
+
+
+10. Conflict Over Testing Strategies
+
+Situation: Engineer A prefers extensive unit testing for individual services, while Engineer B advocates for end-to-end testing to validate the entire system.
+Task: Find a balanced testing strategy.
+Action: Facilitate a discussion on the importance of both testing levels.
+Result: The team decided to implement a balanced testing strategy that included both unit tests for individual services and end
