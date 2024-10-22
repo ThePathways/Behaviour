@@ -1,0 +1,24 @@
+Situation
+
+As the Software Development Manager for a microservices cloud-native banking application, I had a high-performing engineer named Lisa. While Lisa was outstanding in designing and implementing microservices, her independent work style led to feelings of isolation among other team members. This lack of collaboration resulted in last-minute extra workloads as team members struggled to integrate their services with Lisa's, causing delays and increased pressure close to deadlines.
+
+Task
+
+My task was to leverage Lisa's technical skills while fostering a collaborative environment that minimized last-minute workloads and encouraged effective teamwork. I needed to ensure that all team members felt included and engaged in the development process to avoid bottlenecks and improve overall efficiency.
+
+Action
+
+Initial One-on-One Meeting: I scheduled a one-on-one meeting with Lisa to discuss her work habits and their impact on the team. I recognized her impressive contributions but highlighted the challenges faced by the team due to the lack of collaboration and the resulting last-minute rush to integrate services.
+Integration Planning Sessions: I organized regular integration planning sessions where the team could collectively discuss upcoming work and dependencies. This allowed everyone, including Lisa, to align their efforts and plan for integration well in advance, reducing the last-minute workload.
+Collaborative Development Sprints: I implemented collaborative development sprints where team members would work together on specific features. Lisa was encouraged to participate actively, allowing her to share her expertise while also learning from others.
+Peer Review Process: I introduced a peer review process for microservices where team members could review each other's work early in the development cycle. This helped identify potential integration issues before they became critical, promoting a culture of collaboration and shared responsibility.
+Team Retrospectives: I established regular team retrospectives to reflect on what was working well and what needed improvement. This provided a forum for team members to voice their concerns about workload and collaboration, allowing us to make necessary adjustments.
+Result
+
+The outcomes of these actions included:
+
+Improved Collaboration: The integration planning sessions and collaborative sprints fostered a sense of teamwork and shared ownership of the project. Lisa became more engaged with her colleagues, and the team worked more cohesively.
+Reduced Last-Minute Workload: By planning integration efforts early and involving the entire team in the development process, we significantly reduced the last-minute rush to integrate services. This led to a smoother workflow and less stress during critical phases of the project.
+Enhanced Code Quality: The peer review process improved the overall quality of the microservices, as early feedback helped catch issues before they escalated. This contributed to a more stable and reliable application.
+Increased Team Morale: Team members reported feeling more included and valued, leading to improved morale and job satisfaction. The collaborative environment fostered a sense of belonging and reduced feelings of isolation.
+By effectively managing Lisa’s high performance and addressing the challenges of collaboration and last-minute workloads, I was able to create a more efficient and inclusive team dynamic that enhanced both individual and team success. 
